@@ -1,6 +1,11 @@
-@echo off
+echo Downloading packages...
 
-@echo Building NuGet package
+$package = "codemirror-5.19.0"
+
+wget -OutFile nuget.exe https://dist.nuget.org/win-x86-commandline/v3.3.0/nuget.exe
+
+echo Building NuGet package...
+
 mkdir pkg\lib
 mkdir pkg\tools
 mkdir pkg\content
@@ -18,5 +23,4 @@ xcopy /E /R /Y ..\lib pkg\content\Scripts\CodeMirror\lib
 xcopy /E /R /Y ..\mode pkg\content\Scripts\CodeMirror\mode
 xcopy /E /R /Y ..\theme pkg\content\Scripts\CodeMirror\theme
 
-nuget pack pkg\CodeMirror.NuGet.nuspec
-
+.\nuget pack pkg\CodeMirror.NuGet.nuspec

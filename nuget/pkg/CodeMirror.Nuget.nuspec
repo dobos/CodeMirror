@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>CodeMirror.NuGet</id>
-    <version>3.20.01</version>
+    <version>5.19.0</version>
     <authors>Marijn Haverbeke</authors>
     <owners></owners>
     <licenseUrl>https://github.com/marijnh/CodeMirror/blob/master/LICENSE</licenseUrl>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CodeMirror is a versatile text editor implemented in JavaScript for the browser.</description>
     <releaseNotes>Contains js source and styles.</releaseNotes>
-    <copyright>Copyright 2014</copyright>
+    <copyright>Copyright 2016</copyright>
     <dependencies>
     </dependencies>
   </metadata>

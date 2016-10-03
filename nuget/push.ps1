@@ -1,0 +1,3 @@
+echo Publishing package ...
+
+.\nuget push CodeMirror.NuGet.5.19.0.nupkg
