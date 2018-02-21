@@ -1,8 +1,8 @@
 echo Downloading packages...
 
-$package = "codemirror-5.19.0"
+$package = "codemirror-5.35.0"
 
-wget -OutFile nuget.exe https://dist.nuget.org/win-x86-commandline/v3.3.0/nuget.exe
+wget -OutFile nuget.exe https://dist.nuget.org/win-x86-commandline/v4.5.1/nuget.exe
 
 echo Building NuGet package...
 
